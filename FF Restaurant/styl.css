@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.nav-bar{
+    background-color: #000036;
+    padding: 15px 30px;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
