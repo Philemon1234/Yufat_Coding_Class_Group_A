@@ -10,8 +10,30 @@ body{
     font-family: sans-serif;
 }
 
+.container{
+    /* background-color: aqua; */
+    width: 90%;
+    margin: 40px auto;
+}
+
 .card-title{
     background-color: #2d2e37;
     padding: 12px 10px;
     font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.card{
+    width: 15%;
+    position: relative;
+    /* background-color: maroon; */
+}
+
+.image img{
+    width: 100%;
+}
+
+.card-bottom{
+    position: absolute;
+    bottom: 0;
 }
