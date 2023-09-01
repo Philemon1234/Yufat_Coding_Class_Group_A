@@ -1,15 +1,39 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
 body{
-    background: cadetblue;
+    background-color: #1e1e2a;
+    color: white;
+    font-family: sans-serif;
 }
-.card-row{
-    background: rgb(30, 35, 35);
+
+.container{
+    /* background-color: aqua; */
+    width: 90%;
+    margin: 40px auto;
 }
+
+.card-title{
+    background-color: #2d2e37;
+    padding: 12px 10px;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
 .card{
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    width: 15%;
+    position: relative;
+    /* background-color: maroon; */
+}
+
+.image img{
+    width: 100%;
+}
+
+.card-bottom{
+    position: absolute;
+    bottom: 0;
 }
