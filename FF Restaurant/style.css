@@ -45,17 +45,18 @@ a{
 .nav-links li{
     padding: 15px;
 }
+
 .nav-links li a{
     color: white;
-    font-weight: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
 }
-/* .nav-links .home {
-    color: red;
-} */
 
-.nav-links li a:nth-of-type(1){
-   color: red;
+.nav-links .home a{
+    color: #d52000;
 }
-/* .nav-links li a:hover{
-    color: red;
-} */
+
+.nav-links li a:hover{
+    color: #d52000;
+}
