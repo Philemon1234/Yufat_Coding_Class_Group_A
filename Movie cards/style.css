@@ -12,7 +12,7 @@ body{
 
 .container{
     /* background-color: aqua; */
-    width: 90%;
+    width: 70%;
     margin: 40px auto;
 }
 
@@ -36,4 +36,26 @@ body{
 .card-bottom{
     position: absolute;
     bottom: 0;
+}
+
+.cards-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 18px;
+}
+
+.genre{
+    font-weight: 600;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    
 }
