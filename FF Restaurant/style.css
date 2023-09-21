@@ -10,11 +10,14 @@ body{
 
 /* Navigation bar */
 .nav-bar{
-    background-color: #000036;
-    padding: 15px 80px;
+    position:absolute ;
+   top: 0;
+   left: 0;
+    padding: 15px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 li{
@@ -59,4 +62,13 @@ a{
 
 .nav-links li a:hover{
     color: #d52000;
+}
+.banner-img{
+    height: 100vh;
+    width: 100%;
+}
+.banner-img img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
 }
