@@ -12,7 +12,7 @@ body{
 
 .container{
     /* background-color: aqua; */
-    width: 90%;
+    width: 80%;
     margin: 40px auto;
 }
 
@@ -24,16 +24,43 @@ body{
 }
 
 .card{
-    width: 15%;
+    width: 22%;
     position: relative;
     /* background-color: maroon; */
 }
 
 .image img{
+    min-height: 420px;
     width: 100%;
+    object-fit: cover;
 }
 
 .card-bottom{
     position: absolute;
     bottom: 0;
+    padding: 10px;
+}
+.cards-row{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 20px;
+
+}
+.genre{
+    font-size18: 600px;
+    font-weight: 600px;
+    margin-top: 10px;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background: yellow;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
