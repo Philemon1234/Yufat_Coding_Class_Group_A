@@ -105,3 +105,17 @@ body{
     width: 100%;
     object-fit: cover;
 } */
+
+.parent {
+    background-color: red;
+    /* width: 100%; */
+    /* padding: 30px; */
+}
+
+.child {
+    background-color: green;
+    display: inline;
+    /* width: 50%; */
+    /* padding: 30px; */
+
+}

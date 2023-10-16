@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-color: #eee;
+}
+
+body {
+    height: 94.9vh;
+    background-color: var(--body-color);
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, rgba(181, 25, 66, .9), rgba(128, 0, 128, .9), rgba(0, 128, 0, .9)), url(BG.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.price_card_titles {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.price_card_image {
+    width: 2rem;
+    margin: 0 auto;
+}
+
+.price_card_image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.price_card_titles p {
+    color: gray;
+    margin: .5rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.price_card_titles h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 1.3rem;
+    color: #fff;
+}
+
+.price_card_container {
+    width: 60%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.price_card {
+    width: 100%;
+    text-align: center;
+}
+
+.price_card_heading {
+    padding: 1rem;
+    width: 100%;
+    background-color: #610eae;
+    color: #fff;
+    border-radius: .6rem;
+    margin-bottom: 1rem;
+}
+
+.price_card_content {
+    background-color: #72727233;
+    border: 1px solid #e9e7e733;
+    padding: 3rem 0;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+}
+
+.price_card_content p {
+    margin: 1.5rem;
+    color: #fff;
+}
+
+.price_card_content_title {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.month {
+    font-size: 1rem!important;
+}
+
+.price_card_btn {
+    padding: 1rem;
+    background-color: #e5467b;
+    border: none;
+    outline: none;
+    width: 50%;
+    border-radius: 5rem;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.price_card_btn:hover {
+    background-color: #444;
+}
+
+.special_card .price_card_content {
+    border: 2px solid #e5467b;
+}
+
+.special_card .price_card_heading {
+    background-color: #e5467b;
+}
+
+@media screen and (max-width: 1290px) {
+    .price_card_container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .price_card_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .price_card_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
