@@ -100,7 +100,7 @@ a{
 }
 
 .banner-heading{
-    color: #fff;
+    color: #3cc77b;
     font-size: 80px;
     text-align: center;
     letter-spacing: 10px;
@@ -119,19 +119,37 @@ a{
 
 /* MAIN */
 .main{
-    padding: 80px;
+    padding: 120px;
 }
 
 .heading{
     font-size: 40px;
     text-align: center;
+    position: relative;
+}
+
+.heading::after{
+    content: ' ';
+    width: 7%;
+    height: 6px;
+    background-color: #d52000;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin: 70px 0;
+}
+
+.abt-cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
 }
 
 .abt-img{
@@ -140,7 +158,29 @@ a{
     object-fit: cover;
 }
 
+.content{
+    margin-left: 70px;
+}
 
+.abt-heading{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.abt-paragraph{
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.btn{
+    padding: 22px 45px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #d52000;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
 
 
 
